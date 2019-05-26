@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa097e68-a14d-44f5-909d-53ca1f71d58b" name="Default Changelist" comment="" />
+    <list default="true" id="fa097e68-a14d-44f5-909d-53ca1f71d58b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +32,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="87">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,6 +51,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +75,7 @@
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -91,6 +101,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -103,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest.testAdicionarInfoUser">
+  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest">
     <configuration name="InformacoesUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriver-java" />
       <extension name="coverage">
@@ -137,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InformacoesUsuarioTest.testAdicionarInfoUser" />
         <item itemvalue="JUnit.InformacoesUsuarioTest" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest.testAdicionarInfoUser" />
       </list>
     </recent_temporary>
   </component>
@@ -156,9 +169,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InformacoesUsuarioTest - 2019.05.26 at 10h 13m 41s.xml">
-      <configuration name="InformacoesUsuarioTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InformacoesUsuarioTest - 2019.05.26 at 10h 14m 44s.xml">
       <configuration name="InformacoesUsuarioTest" configurationId="JUnit" />
     </history-entry>
@@ -167,6 +177,27 @@
     </history-entry>
     <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 10h 26m 29s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 10h 46m 07s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 10h 48m 19s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 10h 49m 18s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 10h 53m 19s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 11h 01m 50s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarInfoUser - 2019.05.26 at 11h 07m 36s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarInfoUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest - 2019.05.26 at 11h 09m 49s.xml">
+      <configuration name="InformacoesUsuarioTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -184,7 +215,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.501634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,10 +250,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="87">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
           </folding>
         </state>
       </provider>
