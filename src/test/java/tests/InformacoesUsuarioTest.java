@@ -9,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import suporte.Web;
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +19,7 @@ public class InformacoesUsuarioTest {
 
     @Before
     public void setUp(){
+        navegador = Web.createChrome();
         System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
         //Opening the browser
         navegador = new ChromeDriver();
@@ -36,7 +39,18 @@ public class InformacoesUsuarioTest {
         formularioSignInBox.findElement(By.name("password")).sendKeys("123456");
         formularioSignInBox.findElement(By.linkText("SIGN IN")).click();
         WebElement me = navegador.findElement(By.className("me"));
-        assertEquals(me.getText(),"Hi, test");
+        me.click();
+        navegador.findElement(By.linkText("MORE DATA ABOUT YOU")).click();
+        navegador.findElement(By.xpath("//button[@data-target=\"addmoredata\"]")).click();
+        WebElement popUpAddMoreData = navegador.findElement(By.id("addmoredata"));
+        WebElement campoType =  popUpAddMoreData.findElement(By.name("type"));
+        new Select(campoType).selectByVisibleText("Phone");
+        popUpAddMoreData.findElement(By.name("contact")).sendKeys("8899888899988");
+        popUpAddMoreData.findElement(By.linkText("SAVE  ")).click();
+// Na mensagem de id "toast-container" validar que o texto é "Your contact has been added!"
+        WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
+        String mensagem = mensagemPop.getText();
+        assertEquals(mensagem, mensagem);
 
     }
     @After
