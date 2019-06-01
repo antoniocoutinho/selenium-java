@@ -10,8 +10,8 @@ public class SecretaPage extends BasePage{
         super(navegador);
     }
 
-    public MePage clickMe(){
-        navegador.findElement(By.className("me"));
+    public MePage clicarMe(){
+        navegador.findElement(By.className("me")).click();
         return new MePage(navegador);
     }
 }
