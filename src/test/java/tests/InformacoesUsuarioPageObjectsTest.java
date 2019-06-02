@@ -28,8 +28,8 @@ public class InformacoesUsuarioPageObjectsTest {
     }
     @Test
     public void testAdicionarInformacaoAdicionalDoUsuario(
-            @Param(name="user") String user,
-            @Param(name="pass") String pass,
+            @Param(name = "user") String user,
+            @Param(name = "pass") String pass,
             @Param(name = "contactType") String contactType,
             @Param(name = "contact") String contact,
             @Param(name = "ddtExpectedMessage") String ddtExpectedMessage
@@ -60,7 +60,7 @@ public class InformacoesUsuarioPageObjectsTest {
 
         assertEquals(mensagemEsperada, "Rest in peace, dear phone!");
     }
-
+    @After
     public void tearDown(){
         navegador.quit();
     }
