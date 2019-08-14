@@ -1,4 +1,2 @@
 testAdicionarInformacaoAdicionalDoUsuario   ,user, pass, contactType, contact, ddtExpectedMessage
                                             ,test,123456,Phone,0000001,Your contact has been added!
-                                            ,test,123456,Phone,0000002,Your contact has been added!
-                                            ,test,123456,Phone,0000003,Your contact has been added!
