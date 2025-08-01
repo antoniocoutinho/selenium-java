@@ -33,9 +33,54 @@ This repository contains a Java Selenium WebDriver automation framework for UI t
 
 ## Getting Started
 
-1. Clone the repository.
-2. Install dependencies (Selenium, JUnit, EasyTest).
-3. Run tests using your IDE or command line.
+
+To run the Selenium Java UI automation tests in this project, follow these steps:
+
+### Prerequisites
+
+- **Java JDK 8 or newer**  
+  Verify installation with:
+  ```
+  java -version
+  ```
+
+- **Apache Maven**  
+  Verify installation with:
+  ```
+  mvn -version
+  ```
+- **Chrome Driver**  
+  Download Chrome Driver:
+  ```
+  https://getwebdriver.com/chromedriver
+  ```
+### Steps
+
+1. **Clone the repository**  
+   ```
+   git clone <your-repo-url>
+   cd selenium-java
+   ```
+
+2. **Install dependencies and build the project**  
+   ```
+   mvn clean install
+   ```
+
+## Install Dependencies
+
+To install only the project dependencies (without building), run:
+
+```
+mvn dependency:resolve
+```
+
+3. **Run the tests**  
+   ```
+   mvn test
+   ```
+
+All Selenium tests located in `src/test/java` will be executed automatically.
 
 ---
 
